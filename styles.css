@@ -53,6 +53,7 @@ h2{
 #menu li{
     display:inline;
     float:left;
+    font-size: 1.2vw;
 }
 #menu a:link, #menu a:visited{
     text-decoration:none;
@@ -125,6 +126,7 @@ footer{
   margin-right:3%;
   color:rgb(95, 3, 95);
   font-weight:bolder;
+  font-size:1.2vw;
 }
 .pick{
   block-size: 1.5vw;
