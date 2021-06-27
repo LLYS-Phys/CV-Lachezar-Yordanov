@@ -1,0 +1,131 @@
+body{
+    font-family: 'Viaoda Libre', cursive;
+    margin-top:0;
+    margin-bottom:0;
+    margin-left:10%;
+    margin-right:10%;
+}
+.photo{
+  width:30%; 
+  height:30%;
+  border-radius: 3%;
+  max-width:100%;
+  display:block;
+  margin-right:10px;
+  float:right;
+  margin-top:1%;
+}
+.photo1{
+    width:32%; 
+    height:32%;
+    border-radius: 3%;
+    max-width:100%;
+    display:block;
+    margin-right:0.2px;
+    float:right;
+    margin-top:1%;
+}
+.photo2{
+  width:30%; 
+  height:30%;
+  border-radius: 3%;
+  max-width:100%;
+  display:block;
+  margin-left:10px;
+  float:left;
+  margin-top:1%;
+}
+h1, h2{
+    text-align:center;
+    color:rgb(95, 3, 95);
+}
+h1{
+    font-size:7vw;
+    margin-top: 0.2%;
+}
+h2{
+    font-size:5vw;
+}
+#menu ul{
+    list-style-type: none;
+    padding:0.001%;
+}
+#menu li{
+    display:inline;
+    float:left;
+}
+#menu a:link, #menu a:visited{
+    text-decoration:none;
+    font-weight: bold;
+    color:rgb(95, 3, 95);
+}
+#menu nav a:link, #menu nav a:visited{
+    display: block;
+    max-width: 100%;
+    width:13vw;
+    text-align: center;
+    padding: 10px 0;
+}
+#menu nav a:hover{
+  color:black;
+  font-weight: bolder;
+}
+
+.navig{
+    background-color: black;
+    overflow:hidden;
+}
+.navig a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 4.47%;
+    text-decoration: none;
+    font-size: 17px;
+  }
+.navig a:hover {
+    background-color: rgb(95, 3, 95);
+    color: white;
+    font-weight: bolder;
+  }
+.navig a.active {
+    background-color: rgb(95, 3, 95);
+    color: white;
+  }
+  .navig .icon {
+    display: none;
+  }
+  @media screen and (max-width: 1300px) {
+    .navig a:not(.active) {display:none;}
+    .navig a.icon {
+      float: right;
+      display: block;
+    }
+  }
+  @media screen and (max-width: 1300px) {
+    .navig.responsive {position: relative;}
+    .navig.responsive a.icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .navig.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  }
+footer{
+  position:fixed;
+  bottom:0;
+}
+#lang{
+  float:right;
+  margin-right:3%;
+  color:rgb(95, 3, 95);
+  font-weight:bolder;
+}
+.pick{
+  block-size: 1.5vw;
+}
