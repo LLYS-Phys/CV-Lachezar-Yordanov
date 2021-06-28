@@ -75,15 +75,17 @@ h2{
 .navig{
     background-color: black;
     overflow:hidden;
+    width:100%;
 }
 .navig a {
     float: left;
     display: block;
     color: #f2f2f2;
     text-align: center;
-    padding: 14px 4.38%;
+    padding: 14px 0%;
     text-decoration: none;
     font-size: 17px;
+    width:16.666666666666%;
   }
 .navig a:hover {
     background-color: rgb(95, 3, 95);
@@ -97,14 +99,14 @@ h2{
   .navig .icon {
     display: none;
   }
-  @media screen and (max-width: 1300px) {
+  @media screen and (max-width: 1000px) {
     .navig a:not(.active) {display:none;}
     .navig a.icon {
       float: right;
       display: block;
     }
   }
-  @media screen and (max-width: 1300px) {
+  @media screen and (max-width: 1000px) {
     .navig.responsive {position: relative;}
     .navig.responsive a.icon {
       position: absolute;
