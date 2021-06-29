@@ -26,8 +26,8 @@ body{
     margin-top:1%;
 }
 .photo2{
-  width:40%; 
-  height:40%;
+  width:35%; 
+  height:35%;
   border-radius: 3%;
   max-width:100%;
   display:block;
@@ -160,21 +160,21 @@ ul{
   margin-top:3%;
 }
 h3{
-  font-size:3vw;
+  font-size:2.5vw;
   font-weight:bolder;
   margin-left:17%;
   margin-top:-13%;
   color:rgb(95, 3, 95);
 }
 .h41{
-  font-size:1.5vw;
+  font-size:1.4vw;
   font-style:italic;
   margin-left:17%;
   margin-top:-4.2%;
   color: rgb(95, 3, 95);
 }
 .h42{
-  font-size:1.5vw;
+  font-size:1.4vw;
   font-style:italic;
   margin-left:17%;
   margin-top:-2.8%;
@@ -214,4 +214,7 @@ h3{
 #extra{
   margin-top:-2.8%;
   font-weight: bolder;
+}
+.company{
+  margin-left:5%;
 }
