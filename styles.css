@@ -215,3 +215,14 @@ h3{
   margin-top:-2.8%;
   font-weight: bolder;
 }
+@media screen and (max-width: 1300px){
+  #experience{
+    display:table;
+    margin-left:-10%;
+    margin-right:110%;
+    width:120%;
+  }
+  .info{
+    margin-top:-18%;
+  }
+}
