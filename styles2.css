@@ -236,7 +236,9 @@ footer{
     }
   }
   @media screen and (max-width:1300px) and (orientation:landscape){
-    .info p{
-      top:10%;
+    .info{
+      position:absolute;
+      margin-top:-10%;
+      width:30%;
     }
   }
