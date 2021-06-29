@@ -215,3 +215,28 @@ footer{
     margin-top:-2.8%;
     font-weight: bolder;
   }
+  @media screen and (max-width: 1300px){
+    #experience{
+      display:table;
+      margin-left:0;
+      width:100%;
+    }
+    .info{
+      margin-top:-18%;
+    }
+  }
+  @media screen and (max-width:1300px) and (orientation:portrait){
+    body{
+      margin-left:1%;
+      margin-right:1%;
+    }
+    #menu nav{
+      width:100%;
+      margin-right:0;
+    }
+  }
+  @media screen and (max-width:1300px) and (orientation:landscape){
+    .info p{
+      top:10%;
+    }
+  }
