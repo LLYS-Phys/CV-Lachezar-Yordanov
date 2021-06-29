@@ -1,4 +1,4 @@
-function navigmenu() {
+function function1() {
     var x = document.getElementById("topnav");
     if (x.className === "navig") {
       x.className += " responsive";
@@ -7,7 +7,7 @@ function navigmenu() {
     }
   }
 
-  function readmore() {
+  function function2() {
     var readmore = document.getElementById("readmore");
     var moreText = document.getElementById("more");
     var btnText = document.getElementById("myBtn");
