@@ -211,6 +211,7 @@ footer{
   #ch, #citymusic, #sh, #jts, #transif{
     display:inline;
   }
-  #bolder{
-    font-weight:bolder;
+  #extra{
+    margin-top:-2.8%;
+    font-weight: bolder;
   }
