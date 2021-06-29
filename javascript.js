@@ -7,7 +7,7 @@ function myFunction() {
     }
   }
 
-  function myFunction() {
+  function myFunction2() {
     var readmore = document.getElementById("readmore");
     var moreText = document.getElementById("more");
     var btnText = document.getElementById("myBtn");
