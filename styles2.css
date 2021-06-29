@@ -112,11 +112,14 @@ h2{
       position: absolute;
       right: 0;
       top: 0;
+      margin-right:-90.7%;
     }
     .navig.responsive a {
       float: none;
       display: block;
       text-align: left;
+      width:100%;
+      padding-left:2.45%;
     }
   }
 footer{
