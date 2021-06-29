@@ -99,14 +99,14 @@ h2{
   .navig .icon {
     display: none;
   }
-  @media screen and (max-width: 1000px) {
+  @media screen and (max-width: 1300px) {
     .navig a:not(.active) {display:none;}
     .navig a.icon {
       float: right;
       display: block;
     }
   }
-  @media screen and (max-width: 1000px) {
+  @media screen and (max-width: 1300px) {
     .navig.responsive {position: relative;}
     .navig.responsive a.icon {
       position: absolute;
