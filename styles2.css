@@ -185,7 +185,7 @@ footer{
     width:12vw;
     border-radius: 3%;
   }
-  #more, #more2, #more3, #more4, #more5{
+  .plus{
     display: none;
     text-align:justify;
   }
@@ -196,7 +196,7 @@ footer{
     text-align:justify;
     font-weight: bold;
   }
-  #myBtn, #myBtn2, #myBtn3, #myBtn4, #myBtn5{
+  .button{
     font-size: 1vw;
     margin-left: 25%;
     background-color:rgb(95, 3, 95);
@@ -205,11 +205,8 @@ footer{
     border:none;
     width:30%;
   }
-  #myBtn:hover, #myBtn2:hover, #myBtn3:hover, #myBtn4:hover, #myBtn5:hover{
+  .button:hover{
     background-color: rgb(55, 3, 55);
-  }
-  #ch, #citymusic, #sh, #jts, #transif{
-    display:inline;
   }
   #extra{
     margin-top:-2.8%;
@@ -241,4 +238,7 @@ footer{
       margin-top:-10%;
       width:30%;
     }
+  }
+  #additional{
+    margin-top:5%;
   }

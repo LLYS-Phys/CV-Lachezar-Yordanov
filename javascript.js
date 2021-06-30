@@ -86,3 +86,67 @@ function navigmenu() {
       moreText5.style.display = "inline";
     }
   }
+
+  function readmore6() {
+    var readmore6 = document.getElementById("learnmore6");
+    var moreText6 = document.getElementById("more6");
+    var btnText6 = document.getElementById("myBtn6");
+  
+    if (readmore6.style.display === "none") {
+      readmore6.style.display = "inline";
+      btnText6.innerHTML = "Read more";
+      moreText6.style.display = "none";
+    } else {
+      readmore6.style.display = "none";
+      btnText6.innerHTML = "Read less";
+      moreText6.style.display = "inline";
+    }
+  }
+
+  function readmore7() {
+    var readmore7 = document.getElementById("learnmore7");
+    var moreText7 = document.getElementById("more7");
+    var btnText7 = document.getElementById("myBtn7");
+  
+    if (readmore7.style.display === "none") {
+      readmore7.style.display = "inline";
+      btnText7.innerHTML = "Read more";
+      moreText7.style.display = "none";
+    } else {
+      readmore7.style.display = "none";
+      btnText7.innerHTML = "Read less";
+      moreText7.style.display = "inline";
+    }
+  }
+
+  function readmore8() {
+    var readmore8 = document.getElementById("learnmore8");
+    var moreText8 = document.getElementById("more8");
+    var btnText8 = document.getElementById("myBtn8");
+  
+    if (readmore8.style.display === "none") {
+      readmore8.style.display = "inline";
+      btnText8.innerHTML = "Read more";
+      moreText8.style.display = "none";
+    } else {
+      readmore8.style.display = "none";
+      btnText8.innerHTML = "Read less";
+      moreText8.style.display = "inline";
+    }
+  }
+
+  function readmore9() {
+    var readmore9 = document.getElementById("learnmore9");
+    var moreText9 = document.getElementById("more9");
+    var btnText9 = document.getElementById("myBtn9");
+  
+    if (readmore9.style.display === "none") {
+      readmore9.style.display = "inline";
+      btnText9.innerHTML = "Read more";
+      moreText9.style.display = "none";
+    } else {
+      readmore9.style.display = "none";
+      btnText9.innerHTML = "Read less";
+      moreText9.style.display = "inline";
+    }
+  }
