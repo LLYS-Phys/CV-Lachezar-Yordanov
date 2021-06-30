@@ -231,6 +231,12 @@ footer{
       width:100%;
       margin-right:0;
     }
+    .company{
+      max-width:65%;
+    }
+    .company h3, .company h4{
+      margin-left:22%;
+    }
   }
   @media screen and (max-width:1300px) and (orientation:landscape){
     .info{
