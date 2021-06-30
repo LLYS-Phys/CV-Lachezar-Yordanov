@@ -248,3 +248,7 @@ footer{
   #additional{
     margin-top:5%;
   }
+  .info p{
+    margin-left:18%;
+    text-align: left;
+  }
