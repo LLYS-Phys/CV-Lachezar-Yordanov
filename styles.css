@@ -213,11 +213,6 @@ h3{
   font-weight: bolder;
 }
 @media screen and (max-width: 1300px){
-  #experience{
-    display:table;
-    margin-left:0;
-    width:100%;
-  }
   .info{
     margin-top:-18%;
   }
@@ -232,10 +227,16 @@ h3{
     margin-right:0;
   }
   .company{
-    max-width: 75%;
+    max-width:65%;
   }
-  .company h3, .company h4{
-    margin-left:19%;
+  .company h3{
+    margin-left:26%;
+  }
+  .company h4{
+    margin-left:0;
+  }
+  .info p{
+    margin-top:-65%;
   }
 }
 @media screen and (max-width:1300px) and (orientation:landscape){
@@ -264,19 +265,23 @@ h3{
 }
 #choose a, #choose a:visited{
   text-decoration: none;
+  color:rgb(95, 3, 95);
 }
 #choose li{
   font-size:2.4vw;
   font-weight: bold;
+  color:rgb(95, 3, 95);
 }
 #choose ul{
-  margin-left:43%;
+  margin-left:45%;
+  list-style-image:url("images/point-choose-icon.png");
+  margin-top:-1.5%;
 }
 #choose a:hover{
   font-weight: bolder;
   color:rgb(55, 3, 55);
 }
-h4{
+.skills h4{
   font-size:3vw;
   font-weight:bolder;
   text-align:center;
