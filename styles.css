@@ -261,6 +261,7 @@ h3{
   margin-left:0;
   float:left;
   margin-left:23%;
+  margin-top:-3%;
 }
 #choose a, #choose a:visited{
   text-decoration: none;
@@ -274,7 +275,7 @@ h3{
 #choose ul{
   margin-left:45%;
   list-style-image:url("images/point-choose-icon.png");
-  margin-top:-1.5%;
+  margin-top:-2%;
 }
 #choose a:hover{
   font-weight: bolder;
@@ -304,4 +305,25 @@ h3{
   #choose li{
     font-size:4vw;
   }
+}
+#persskills{
+  margin-top:53%;
+}
+#skillslang, #skillslang th, #skillslang td{
+  border:1px solid black;
+  color:rgb(95, 3, 95);
+  font-weight:bold;
+  font-size:2vw;
+  border-collapse: collapse;
+  border-width:0.3vw;
+  border-color:rgb(55, 3, 55);
+  padding:2%;
+}
+#skillslang{
+  width:100%;
+  table-layout: fixed;
+  border-radius: 100%;
+}
+#skillslang td{
+  text-align:center;
 }
