@@ -69,9 +69,8 @@ h2{
 }
 #menu nav a:hover{
   color:black;
-  font-weight: bolder;
+  font-weight:bolder;
 }
-
 .navig{
     background-color: black;
     overflow:hidden;
@@ -286,4 +285,23 @@ h3{
   font-weight:bolder;
   text-align:center;
   color:rgb(95, 3, 95);
+}
+@media screen and (max-width:1300px) and (orientation:portrait){
+  #choose{
+    margin-left:-12%;
+    margin-top:14%;
+    margin-bottom:8%;
+  }
+  #chooseph{
+    height:40%;
+    width:40%;
+    margin-left:15%;
+    margin-top:8%;
+  }
+  #persskills{
+    margin-top:53%;
+  }
+  #choose li{
+    font-size:4vw;
+  }
 }
