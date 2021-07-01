@@ -327,3 +327,10 @@ h3{
 #skillslang td{
   text-align:center;
 }
+#motivational{
+  width:100%;
+  table-layout: fixed;
+}
+.mot{
+  width:100%;
+}
