@@ -150,3 +150,19 @@ function navigmenu() {
       moreText9.style.display = "inline";
     }
   }
+
+  function readmore10() {
+    var readmore10 = document.getElementById("learnmore10");
+    var moreText10 = document.getElementById("more10");
+    var btnText10 = document.getElementById("myBtn10");
+  
+    if (readmore10.style.display === "none") {
+      readmore10.style.display = "inline";
+      btnText10.innerHTML = "Read more";
+      moreText10.style.display = "none";
+    } else {
+      readmore10.style.display = "none";
+      btnText10.innerHTML = "Read less";
+      moreText10.style.display = "inline";
+    }
+  }

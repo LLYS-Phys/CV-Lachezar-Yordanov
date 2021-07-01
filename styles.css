@@ -263,21 +263,21 @@ h3{
   margin-left:23%;
   margin-top:-3%;
 }
-#choose a, #choose a:visited{
+#choose a, #choose a:visited, #choose2 a, #choose2 a:visited{
   text-decoration: none;
   color:rgb(95, 3, 95);
 }
-#choose li{
+#choose li, #choose2 li{
   font-size:2.4vw;
   font-weight: bold;
   color:rgb(95, 3, 95);
 }
-#choose ul{
+#choose ul, #choose2 ul{
   margin-left:45%;
   list-style-image:url("images/point-choose-icon.png");
   margin-top:-2%;
 }
-#choose a:hover{
+#choose a:hover, #choose2 a:hover{
   font-weight: bolder;
   color:rgb(55, 3, 55);
 }
@@ -302,7 +302,7 @@ h3{
   #persskills{
     margin-top:53%;
   }
-  #choose li{
+  #choose li, #choose2 li{
     font-size:4vw;
   }
 }
@@ -333,4 +333,85 @@ h3{
 }
 .mot{
   width:100%;
+}
+#choose2 ul li:nth-child(1){
+  list-style-image:url('images/bullets/sh-logo.jpg');
+}
+#choose2 ul li:nth-child(2){
+  list-style-image:url('images/bullets/ch-logo.png');
+}
+#choose2 ul li:nth-child(3){
+  list-style-image:url('images/bullets/guitar-logo.png');
+}
+#scream{
+  padding-top:4%;
+}
+#choose2{
+  padding-top:6.5%;
+}
+@media screen and (max-width:1300px) and (orientation:portrait){
+  #choose2{
+    margin-top:7.5%;
+  }
+  #scream{
+    margin-top:1%;
+  }
+}
+@media screen and (max-width:1300px) and (orientation:portrait){
+  #shvideo{
+    width:50%;
+  }
+}
+@media screen and (max-width:1300px) and (orientation:landscape){
+  #shvideo{
+    width:50%;
+  }
+}
+.explain{
+  float:right;
+  font-size: 1.7vw;
+  color:rgb(95, 3, 95);
+  font-weight: bold;
+  margin-right: 10%;
+}
+#shinfo{
+  margin-top:-20%;
+}
+.ach h4{
+  font-size:3vw;
+  font-weight:bolder;
+  text-align:center;
+  color:rgb(95, 3, 95);
+}
+.button2{
+  font-size: 1vw;
+  margin-left: 59%;
+  background-color:rgb(95, 3, 95);
+  color:white;
+  font-weight:bold;
+  border:none;
+  width:30%;
+}
+.button2:hover{
+  background-color: rgb(55, 3, 55);
+}
+.info2{
+  margin-top:-25%;
+}
+.info2 p{
+  margin-left:58%;
+  text-align:justify;
+}
+#careerhub{
+  padding-top:20%;
+}
+#chinfo{
+  margin-left:-10%;
+  height:69%;
+  width:69%;
+}
+@media screen and (max-width:1300px) and (orientation:portrait){
+  #chinfo{
+    width:63%;
+  }
 }
