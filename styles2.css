@@ -662,3 +662,8 @@ footer{
       left:30%;
     }
   }
+  @media screen and (max-width:1300px) and (orientation:portrait){
+    .h41, .h42{
+      padding-left:26%;
+    }
+  }
