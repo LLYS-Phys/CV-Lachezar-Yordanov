@@ -698,3 +698,10 @@ h5{
     font-size: 3vw; 
   }
 }
+@media screen and (max-width:1300px) and (orientation:landscape){
+    .button{
+    height:2vw;
+    width:10vw;
+    font-size: 1.5vw; 
+  }
+}
