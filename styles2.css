@@ -577,3 +577,88 @@ footer{
       margin-top: -25%;
     }
   }
+  #introh{
+    font-size:3vw;
+    font-weight:bolder;
+    text-align:left;
+    margin-left:8%;
+    margin-top:15%;
+    color:rgb(95, 3, 95);
+  }
+  .introp{
+    font-size:1.8vw;
+    font-weight:bold;
+    text-align:left;
+    color:rgb(95, 3, 95);
+  }
+  #outro{
+    font-size:1.8vw;
+    font-weight:bold;
+    text-align:center;
+    color:rgb(95, 3, 95);
+    padding-top:15%;
+  }
+  #disclaimer{
+    font-size:1.5vw;
+    font-weight:bold;
+    text-align:center;
+  }
+  #quick{
+    width:100%;
+    table-layout: fixed;
+  }
+  .qpick{
+    width:100%;
+  }
+  #quick td:hover{
+    border:solid;
+    border-color:rgb(95, 3, 95);
+  }
+  .container{
+    position:relative;
+    text-align:center;
+    color:rgb(95, 3, 95);
+    font-family: 'Caveat', cursive;
+  }
+  .text{
+    position:absolute;
+    font-style:italic;
+    font-size:2vw;
+  }
+  .container:hover{
+    font-weight:bold;
+  }
+  #one{
+    bottom:10%;
+    left:33%;
+  }
+  #two{
+    bottom:10%;
+    left:33%;
+  }
+  #three{
+    bottom:27%;
+    left:66.5%;
+  }
+  #four{
+    bottom:-5%;;
+    left:33%;
+  }
+  #five{
+    bottom:0;
+    left:67%;
+  }
+  @media screen and (max-width:1300px) and (orientation:portrait){
+    .text{
+      font-size:3vw;
+    }
+    #five{
+      left:58%;
+    }
+    #one{
+      left:25%;
+    }
+    #four{
+      left:30%;
+    }
+  }
