@@ -103,6 +103,12 @@ h2{
     .navig a.icon {
       float: right;
       display: block;
+      height:4vw;
+    }
+    .navig .active{
+      height:4vw;
+      font-size:2.5vw;
+      width:20%;
     }
   }
   @media screen and (max-width: 1300px) {
@@ -112,6 +118,7 @@ h2{
       right: 0;
       top: 0;
       margin-right:-90.7%;
+      height:4vw;
     }
     .navig.responsive a {
       float: none;
@@ -119,6 +126,8 @@ h2{
       text-align:left;
       width:100%;
       padding-left:3.2%;
+      height:4vw;
+      font-size:2.8vw;
     }
   }
 footer{
@@ -221,9 +230,16 @@ h3{
     margin-left:1%;
     margin-right:1%;
   }
-  #menu nav{
-    width:100%;
-    margin-right:0;
+  footer ul li{
+    display:inline;
+    float:right;
+    width:16%;
+  }
+  footer #lang{
+    margin-right:9%;
+  }
+  footer #ux{
+    margin-left:3.7%;
   }
   .company{
     max-width:65%;
