@@ -692,4 +692,9 @@ h5{
   #space{
     margin-top:1%;
   }
+  .button{
+    height:4vw;
+    width:23vw;
+    font-size: 3vw; 
+  }
 }
