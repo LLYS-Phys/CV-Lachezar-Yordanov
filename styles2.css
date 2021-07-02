@@ -696,6 +696,9 @@ footer{
   #contacts{
     margin-top:17%;
   }
+  #space{
+    margin-top:10%;
+  }
   @media screen and (max-width:1300px) and (orientation:portrait){
     #cont{
       margin-left:6%;
@@ -715,4 +718,8 @@ footer{
       font-size:3.5vw;
       margin-top:1%;
     }
+    #space{
+      margin-top:1%;
+    }
+  }
   }
