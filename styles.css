@@ -410,11 +410,6 @@ h3{
   height:69%;
   width:69%;
 }
-@media screen and (max-width:1300px) and (orientation:portrait){
-  #chinfo{
-    width:63%;
-  }
-}
 .info3{
   margin-top:-35%;
   margin-left:3%;
@@ -462,4 +457,72 @@ h5{
 }
 #shawards li{
   list-style-image:url("images/bullets/sh-logo.jpg");
+}
+@media screen and (max-width:1300px) and (orientation:portrait){
+  #chinfo{
+    width:63%;
+  }
+  #choose2 li{
+    font-size:1.8vw;
+  }
+  #choose2{
+    margin-top:6%;
+  }
+  .ach .explain{
+    font-size:2.5vw;
+  }
+  .ach .info2, .ach .info3{
+    font-size:0.8vw;
+    margin-left:-15%;
+  }
+  #other li{
+    font-size:1.2vw;
+  }
+  #other{
+    margin-bottom:-22%;
+  }
+}
+@media screen and (max-width:1300px) and (orientation:landscape){
+  #choose2{
+    margin-top:-1%;
+  }
+  #other li{
+    font-size:1.35vw;
+  }
+  #other{
+    margin-bottom:-12%;
+  }
+  .ach .explain{
+    font-size:2.5vw;
+    margin-right: -3%;
+  }
+  .ach .info3 p{
+    margin-top:5%;
+  }
+  .ach .info2 p{
+    margin-top:-19.5%;
+  }
+  .ach .info2 .plus{
+    font-size:1.2vw;
+    text-align:left;
+  }
+  .ach#studyhub p{
+    margin-right:7%;
+  }
+  .ach .info3{
+    font-size:0.8vw;
+    margin-right: -7%;
+  }
+  .ach .info2{
+    font-size:0.8vw;
+    margin-right: -3.5%;
+    margin-top: -25%;
+  }
+  #chinfo{
+    height:60%;
+    width:60%;
+  }
+  #shvideo{
+    width:45%;
+  }
 }
