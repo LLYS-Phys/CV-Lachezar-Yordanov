@@ -136,7 +136,7 @@ footer{
 }
 #lang{
   float:right;
-  margin-right:3%;
+  margin-right:4.5%;
   color:rgb(95, 3, 95);
   font-weight:bolder;
   font-size:1.2vw;
@@ -636,5 +636,54 @@ h5{
   .h41, .h42{
     padding-left:26%;
   }
-  
+}
+.hobby{
+  font-size:2.5vw;
+  font-weight:bolder;
+  text-align:center;
+  color:rgb(95, 3, 95);
+}
+#hobbymus{
+  height:70%;
+  width:70%;
+  position:center;
+  margin-bottom:15%;
+}
+#hobbyinfo{
+  position:relative;
+  color:rgb(95, 3, 95);
+  float:right;
+  margin-top:10%;
+  width:25%;
+  font-weight: bold;
+  font-size:2vw;
+}
+#contactme{
+  margin-bottom:-3%;
+}
+#cont{
+  margin-top:10%;
+}
+#contacts{
+  margin-top:16%;
+}
+@media screen and (max-width:1300px) and (orientation:portrait){
+  #cont{
+    margin-left:6%;
+    margin-top:16%;
+  }
+  #contacts li{
+    margin-left:-30%;
+    text-align:justify;
+  }
+  #hobbymus{
+    margin-bottom:28%;
+  }
+  #contactme2{
+    margin-bottom:-5%;
+  }
+  #hobbyinfo{
+    font-size:3.5vw;
+    margin-top:1%;
+  }
 }
