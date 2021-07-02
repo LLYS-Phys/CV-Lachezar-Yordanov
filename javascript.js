@@ -166,3 +166,19 @@ function navigmenu() {
       moreText10.style.display = "inline";
     }
   }
+
+  function readmore11() {
+    var readmore11 = document.getElementById("learnmore11");
+    var moreText11 = document.getElementById("more11");
+    var btnText11 = document.getElementById("myBtn11");
+  
+    if (readmore11.style.display === "none") {
+      readmore11.style.display = "inline";
+      btnText11.innerHTML = "Read more";
+      moreText11.style.display = "none";
+    } else {
+      readmore11.style.display = "none";
+      btnText11.innerHTML = "Read less";
+      moreText11.style.display = "inline";
+    }
+  }

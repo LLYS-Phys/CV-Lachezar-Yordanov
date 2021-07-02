@@ -341,7 +341,7 @@ h3{
   list-style-image:url('images/bullets/ch-logo.png');
 }
 #choose2 ul li:nth-child(3){
-  list-style-image:url('images/bullets/guitar-logo.png');
+  list-style-image:url('images/bullets/awards-icon.png');
 }
 #scream{
   padding-top:4%;
@@ -414,4 +414,52 @@ h3{
   #chinfo{
     width:63%;
   }
+}
+.info3{
+  margin-top:-35%;
+  margin-left:3%;
+}
+.info3 p{
+  margin-left:59%;
+  text-align:justify;
+}
+#other{
+  margin-top:35%;
+  font-weight: bold;
+}
+#bgtext{
+  height:40%;
+  width:40%;
+}
+h5{
+  font-size:2.5vw;
+  font-weight:bolder;
+  text-align:center;
+  color:rgb(95, 3, 95);
+  margin-left:40%;
+  margin-top:-55%;
+}
+#awards li:nth-child(1){
+  list-style-image:url('images/bullets/guitar-logo.png');
+}
+#awards li:nth-child(2){
+  list-style-image:url('images/bullets/guitar-logo.png');
+}
+#awards{
+  padding-left:50%;
+  color:rgb(95, 3, 95);
+  font-size:2vw;
+  margin-top:-4%;
+}
+#shaw{
+  margin-top:0;
+}
+#shawards{
+  padding-left:50%;
+  color:rgb(95, 3, 95);
+  font-size:2vw;
+  margin-top:-4%;
+}
+#shawards li{
+  list-style-image:url("images/bullets/sh-logo.jpg");
 }
