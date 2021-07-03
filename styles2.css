@@ -99,7 +99,7 @@ h2{
   .navig .icon {
     display: none;
   }
-  @media screen and (max-width: 1300px) {
+  @media screen and (max-width: 1300px) and (orientation:portrait){
     .navig a:not(.active) {display:none;}
     .navig a.icon {
       float: right;
@@ -112,7 +112,20 @@ h2{
       width:30%;
     }
   }
-  @media screen and (max-width: 1300px) {
+  @media screen and (max-width: 1300px) and (orientation:landscape){
+    .navig a:not(.active) {display:none;}
+    .navig a.icon {
+      float: right;
+      display: block;
+      height:4.5vw;
+      width:13.3vw;
+    }
+    .navig .active{
+      font-size:3vw;
+      width:30%;
+    }
+  }
+  @media screen and (max-width: 1300px)  and (orientation:portrait){
     .navig.responsive {position: relative;}
     .navig.responsive a.icon {
       position: absolute;
@@ -129,6 +142,22 @@ h2{
       padding-left:2.45%;
       height:6vw;
       font-size:4vw;
+    }
+  }
+  @media screen and (max-width: 1300px)  and (orientation:landscape){
+    .navig.responsive {position: relative;}
+    .navig.responsive a.icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+      margin-right:-90.7%;
+    }
+    .navig.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+      width:100%;
+      padding-left:2.45%;
     }
   }
 footer{
@@ -679,7 +708,7 @@ footer{
     position:center;
     margin-bottom:15%;
   }
-  #hobbyinfo{
+  .hobbyinfo{
     position:relative;
     color:rgb(55, 3, 55);
     float:right;
@@ -701,22 +730,29 @@ footer{
   }
   @media screen and (max-width:1300px) and (orientation:portrait){
     #cont{
-      margin-left:6%;
+      margin-left:1%;
       margin-top:16%;
     }
     #contacts li{
-      margin-left:-30%;
-      text-align:justify;
+      margin-left:-44%;
     }
     #hobbymus{
-      margin-bottom:65%;
+      margin-bottom:53%;
+    }
+    #contactme{
+      margin-top:-20%;
     }
     #contactme2{
       margin-bottom:-8%;
     }
-    #hobbyinfo{
+    #hob1{
       font-size:3.5vw;
-      margin-top:1%;
+      margin-top:-2%;
+    }
+    #hob2{
+      font-size:3.3787vw;
+      margin-top:-45%;
+      width:100%;
     }
     #space{
       margin-top:1%;
@@ -730,6 +766,10 @@ footer{
       height:4vw;
       width:4vw;
     }
+    #bars{
+      font-size:5vw;
+      width:120%;
+    }
   }
   @media screen and (max-width:1300px) and (orientation:landscape){
     .button{
@@ -740,5 +780,27 @@ footer{
   .moreicon{
     height:2.8vw;
     width:2.8vw;
+  }
+  #bars{
+    font-size:3vw;
+    width:108%;
+  }
+  #hob1{
+    font-size:3vw;
+    margin-top:2%;
+    width:26%;
+    text-align:justify;
+  }
+  #hob2{
+    font-size:3vw;
+    margin-top:1%;;
+    width:100%;
+    margin-bottom:15%;
+  }
+  #cont{
+    margin-left:12%;
+  }
+  #contacts li{
+    margin-left:-41%;
   }
 }
