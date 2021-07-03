@@ -293,12 +293,19 @@ footer{
     .info p{
       margin-top:-65%;
     }
+    .info{
+      margin-left:57%; 
+      margin-top:7%;
+    }
   }
   @media screen and (max-width:1300px) and (orientation:landscape){
     .info{
       position:absolute;
-      margin-top:-10%;
+      margin-top:-27%;
       width:30%;
+    }
+    .company{
+      margin-bottom:20%;
     }
   }
   #additional{
@@ -440,13 +447,14 @@ footer{
     color:rgb(55, 3, 55);
   }
   .button2{
-    font-size: 1vw;
-    margin-left: 59%;
+    font-size: 1.1vw;
+    margin-left: 67%;
     background-color:rgb(95, 3, 95);
     color:white;
     font-weight:bold;
     border:none;
-    width:30%;
+    width:15%;
+    height:1.8vw;
   }
   .button2:hover{
     background-color: rgb(55, 3, 55);
@@ -734,6 +742,11 @@ footer{
   #space{
     margin-top:10%;
   }
+  .ach .info2 .plus, .ach .info3 .plus{
+    font-size:1.5vw;
+    font-weight: bold;
+    color:rgb(55, 3, 55);
+  }
   @media screen and (max-width:1300px) and (orientation:portrait){
     #cont{
       margin-left:1%;
@@ -775,6 +788,9 @@ footer{
     #bars{
       font-size:5vw;
       width:120%;
+    }
+    .ach .info2 .plus, .ach .info3 .plus{
+      font-size: 0.8vw;
     }
   }
   @media screen and (max-width:1300px) and (orientation:landscape){
