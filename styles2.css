@@ -716,6 +716,12 @@ footer{
     font-weight: bold;
     font-size:2vw;
   }
+  #hob1{
+    margin-top:1%;
+  }
+  #hob2{
+    margin-top:-33%;
+  }
   #contactme{
     margin-bottom:-3%;
   }
