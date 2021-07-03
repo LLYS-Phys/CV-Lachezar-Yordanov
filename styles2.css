@@ -37,7 +37,7 @@ body{
 }
 h1, h2{
     text-align:center;
-    color:rgb(95, 3, 95);
+    color:rgb(55, 3, 55);
 }
 h1{
     font-size:6.5vw;
@@ -138,7 +138,7 @@ footer{
 #lang{
   float:right;
   margin-right:5.5%;
-  color:rgb(95, 3, 95);
+  color:rgb(55, 3, 55);
   font-weight:bold;
   font-size:1.2vw;
 }
@@ -173,21 +173,21 @@ footer{
     font-weight:bolder;
     margin-left:17%;
     margin-top:-13%;
-    color:rgb(95, 3, 95);
+    color:rgb(55, 3, 55);
   }
   .h41{
     font-size:1.5vw;
     font-style:italic;
     margin-left:17%;
     margin-top:-4.2%;
-    color: rgb(95, 3, 95);
+    color:rgb(55, 3, 55);
   }
   .h42{
     font-size:1.5vw;
     font-style:italic;
     margin-left:17%;
     margin-top:-2.8%;
-    color: rgb(95, 3, 95);
+    color:rgb(55, 3, 55);
   }
   .worklogo{
     height:12vw;
@@ -297,7 +297,7 @@ footer{
   #choose li, #choose2 li{
     font-size:2.4vw;
     font-weight: bold;
-    color:rgb(95, 3, 95);
+    color:rgb(55, 3, 55);
   }
   #choose ul, #choose2 ul{
     margin-left:45%;
@@ -312,7 +312,7 @@ footer{
     font-size:3vw;
     font-weight:bolder;
     text-align:center;
-    color:rgb(95, 3, 95);
+    color:rgb(55, 3, 55);
   }
   @media screen and (max-width:1300px) and (orientation:portrait){
     #choose{
@@ -338,7 +338,7 @@ footer{
   }
   #skillslang, #skillslang th, #skillslang td{
     border:1px solid black;
-    color:rgb(95, 3, 95);
+    color:rgb(55, 3, 55);
     font-weight:bold;
     font-size:2vw;
     border-collapse: collapse;
@@ -397,7 +397,7 @@ footer{
   .explain{
     float:right;
     font-size: 1.7vw;
-    color:rgb(95, 3, 95);
+    color:rgb(55, 3, 55);
     font-weight: bold;
     margin-right: 10%;
   }
@@ -408,7 +408,7 @@ footer{
     font-size:3vw;
     font-weight:bolder;
     text-align:center;
-    color:rgb(95, 3, 95);
+    color:rgb(55, 3, 55);
   }
   .button2{
     font-size: 1vw;
@@ -457,7 +457,7 @@ footer{
     font-size:2.5vw;
     font-weight:bolder;
     text-align:center;
-    color:rgb(95, 3, 95);
+    color:rgb(55, 3, 55);
     margin-left:40%;
     margin-top:-55%;
   }
@@ -469,7 +469,7 @@ footer{
   }
   #awards{
     padding-left:50%;
-    color:rgb(95, 3, 95);
+    color:rgb(55, 3, 55);
     font-size:2vw;
     margin-top:-4%;
   }
@@ -478,7 +478,7 @@ footer{
   }
   #shawards{
     padding-left:50%;
-    color:rgb(95, 3, 95);
+    color:rgb(55, 3, 55);
     font-size:2vw;
     margin-top:-4%;
   }
@@ -583,19 +583,19 @@ footer{
     text-align:left;
     margin-left:8%;
     margin-top:15%;
-    color:rgb(95, 3, 95);
+    color:rgb(55, 3, 55);
   }
   .introp{
     font-size:1.8vw;
     font-weight:bold;
     text-align:left;
-    color:rgb(95, 3, 95);
+    color:rgb(55, 3, 55);
   }
   #outro{
     font-size:1.8vw;
     font-weight:bold;
     text-align:center;
-    color:rgb(95, 3, 95);
+    color:rgb(55, 3, 55);
     padding-top:15%;
   }
   #disclaimer{
@@ -671,7 +671,7 @@ footer{
     font-size:2.5vw;
     font-weight:bolder;
     text-align:center;
-    color:rgb(95, 3, 95);
+    color:rgb(55, 3, 55);
   }
   #hobbymus{
     height:70%;
@@ -681,7 +681,7 @@ footer{
   }
   #hobbyinfo{
     position:relative;
-    color:rgb(95, 3, 95);
+    color:rgb(55, 3, 55);
     float:right;
     width:25%;
     font-weight: bold;
